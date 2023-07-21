@@ -1,0 +1,136 @@
+.header_heading{
+    text-align: center;
+    padding: 4rem;
+
+}
+
+
+
+.header_heading h1{
+    text-transform: uppercase;
+    font-size: 5rem;
+}
+
+.header_heading span{
+    color: #EF9B0F;
+}
+
+.header_heading p{
+    padding: 0 1rem;
+    
+}
+
+.header_button {
+    width: 150px;
+    height: 60px;
+    margin-top: 2rem;
+    background: transparent;
+    border: 4px solid #EF9B0F;
+    color: #EF9B0F;
+    transition: 0.2s ease-in;
+}
+
+.header_button:hover {
+    transition: 0.3s ease-in;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+.header_images   {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.pig{
+    opacity: 1;
+    transition: 0.2s ease-in;
+    width: 200px;
+    height: 200px;
+    backface-visibility: hidden;
+}
+
+
+.pig_h{
+    transition: 0.2s ease-in;
+    text-align: center;
+    opacity: 0;
+    color: white;
+    position: absolute;
+    top: 99%;
+    left: 27%;
+}
+
+.crop_h{
+    transition: 0.2s ease-in;
+    text-align: center;
+    opacity: 0;
+    color: white;
+    position: absolute;
+    top: 99%;
+    left: 47%;
+}
+
+.pig_content:hover .pig{
+    opacity: 0.3;
+}
+
+.pig_content:hover .pig_h{
+    opacity: 1;
+}
+
+.crop_content:hover .corn{
+    opacity: 0.3;
+}
+
+.crop_content:hover .crop_h{
+    opacity: 1;
+}
+
+.corn{
+    opacity: 1;
+    backface-visibility: hidden;
+    transition: 0.2s ease-in;
+    width: 200px;
+    height: 200px;
+}
+
+.tractor{
+    width: 200px;
+    height: 200px;
+}
+
+@media screen and (min-width:426px) and (max-width:768px  )  {
+    .pig{
+        width: 140px;
+        height: 140px;
+    }
+
+    .corn{
+        width: 140px;
+        height: 140px;
+    }
+
+    .tractor{
+        width: 140px;
+        height: 140px;
+    }
+
+    .header_heading h1{
+        font-size: 4rem;
+    }
+}
+
+@media screen and (min-width:376px) and (max-width:426px) {
+    .header_images{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 4rem;
+    }
+
+    .header_heading h1{
+        font-size:2rem;
+    }
+}

@@ -1,0 +1,150 @@
+.navbar_header{
+    padding: 1rem;
+   
+}
+
+.navbar_wrap{
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2),0 10px 10px 10px rgba(0, 0, 0, 0.219) ;
+}
+
+.navbar_header1{
+    text-transform: uppercase;
+
+}
+
+.navbar_header1 span{
+    color: #EF9B0F;
+}
+
+.navbar_links{
+    display: flex;
+}
+
+.navbar_links a{
+    margin: 1rem;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.navbar_login{
+    display: flex;
+    align-items: center;
+}
+
+
+.login button{
+    margin:0 1rem 0 1rem;
+    border: none;
+    height: 50px;
+    width: 90px;
+    background-color: #EF9B0F;
+    font-size: 1rem;
+    transition: 0.3s ease-in;
+}
+
+.login:hover button{
+    background: transparent;
+    border:2px solid #EF9B0F;
+    transition: 0.3s ease-out;
+    color: white;
+    cursor: pointer;
+}
+
+.signin h3{
+    font-size: 1.6rem;
+    transition: 0.2s ease-in;
+}
+
+.signin:hover h3{
+    color: #EF9B0F;
+    transition: 0.2s ease-out;
+    cursor: pointer;
+}
+
+.link1{
+    transition: 0.2s ease-in;
+}
+
+.link1:hover {
+    color: #EF9B0F;
+    border-bottom: 2px solid #EF9B0F;
+    transition: 0.2s ease-out;
+}
+
+.link2{
+    transition: 0.2s ease-in;
+}
+
+.link2:hover {
+    color: #EF9B0F;
+    border-bottom: 2px solid #EF9B0F;
+    transition: 0.2s ease-out;
+}
+
+.link3{
+    transition: 0.2s ease-in;
+}
+
+.link3:hover {
+    color: #EF9B0F;
+    border-bottom: 2px solid #EF9B0F;
+    transition: 0.2s ease-out;
+}
+
+.link4{
+    transition: 0.2s ease-in;
+}
+
+.link4:hover {
+    color: #EF9B0F;
+    border-bottom: 2px solid #EF9B0F;
+    transition: 0.2s ease-out;
+}
+
+.link5{
+    transition: 0.2s ease-in;
+}
+
+.link5:hover {
+    color: #EF9B0F;
+    border-bottom: 2px solid #EF9B0F;
+    transition: 0.2s ease-out;
+}
+
+.link6{
+    transition: 0.2s ease-in;
+}
+
+.link6:hover {
+    color: #EF9B0F;
+    border-bottom: 2px solid #EF9B0F;
+    transition: 0.2s ease-out;
+}
+
+.link7{
+    transition: 0.2s ease-in;
+}
+
+.link7:hover{
+    color: #EF9B0F;
+    border-bottom:2px solid #EF9B0F;
+}
+
+@media screen and (max-width:951px){
+    .navbar_header1{
+        text-align: center;
+    }
+
+    .navbar_wrap{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}

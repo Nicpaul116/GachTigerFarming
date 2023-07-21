@@ -1,0 +1,46 @@
+.about{
+    text-align: center;
+    margin: 0 10rem;
+}
+
+.about_header{
+    text-transform: uppercase;
+    color: #EF9B0F;
+}
+
+.about_header span{
+    border-bottom: 2px solid #EF9B0F;
+}
+.about_content{
+    padding: 1rem;
+}
+.about1{
+    background: blue;
+    padding: 1rem;
+}
+
+.about2{
+    background: red;
+    padding: 1rem;
+}
+
+.about3{
+    padding: 1rem;
+    background: green;
+}
+
+.about4{
+    padding: 1rem;
+    background: grey;
+}
+
+@media screen  and (max-width:426px)  and (min-width:376px) {
+    .about_header h1{
+        font-size: 1rem;
+    }
+    .about1{
+        padding: 0 10rem 0 0;
+        
+    }
+    
+}

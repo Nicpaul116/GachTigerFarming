@@ -1,0 +1,8 @@
+export {default as Blog} from './blog/Blog'
+export {default as Contact} from './contact/Contact'
+export {default as Crops} from './crops/Crops'
+export {default as Footer} from './footer/Footer'
+export {default as Header} from './header/Header'
+export {default as Livestock} from './livestock/Livestock'
+export {default as Machines} from './machines/Machines'
+export {default as About} from './about/About'

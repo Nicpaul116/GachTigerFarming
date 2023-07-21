@@ -1,0 +1,51 @@
+.container_crops{
+    margin: 4rem 10rem;
+    box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.4), 0 10px 10px 10px rgba(0, 0, 0, 0.19);
+}
+
+.container_crops_all{
+    margin: 0 6rem;
+}
+
+.crops_wrap{
+    padding: 1rem;
+}
+
+.crops_wrap h2{
+    text-transform: uppercase;
+    color: #EF9B0F;
+}
+
+.crops_img{
+    width: 350px;
+    height: 300px;
+    box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.4), 0 10px 10px 10px rgba(0, 0, 0, 0.19);
+}
+
+.container_crops_wrap{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem , 1fr) );
+    padding: 1rem;
+}
+
+.crops_header{
+    color: #EF9B0F;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 1rem;
+}
+
+.crops_button {
+    width: 100px;
+    height: 50px;
+    border: none;
+    background: #EF9B0F;
+    transition: 0.3s ease-in;
+}
+
+.crops_button:hover {
+    background: white;
+    transition: 0.3s ease-out;
+    cursor: pointer;
+}
+

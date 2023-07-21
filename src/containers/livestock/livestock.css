@@ -1,0 +1,55 @@
+.container_livestock{
+    margin: 0 10rem;
+    box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.4), 0 10px 10px 10px rgba(0, 0, 0, 0.19);
+}
+
+.container_livestock_info{
+    margin: 0 6rem;
+
+    
+}
+
+.livestock_header{
+    text-align: center;
+    color: #EF9B0F;
+    text-transform: uppercase;
+    padding-top: 1rem;
+}
+
+.container_livestock_wrap{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    padding: 1rem;
+}
+
+.livestock_wrap{
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+
+.livestock_img {
+    width: 350px;
+    height: 300px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.4), 0 0 10px 10px rgba(0, 0, 0, 0.19);
+}
+
+.livestock_info h3{
+    text-transform: uppercase;
+    color: #EF9B0F;
+}
+
+.livestock_button{
+    background-color: #EF9B0F;
+    font-size: 1rem;
+    width: 100px;
+    height: 50px;
+    border: none;
+    transition: 0.3s ease-in;
+}
+
+.livestock_button:hover {
+    background: white;
+    transition: 0.3s ease-out;
+    cursor: pointer;
+}

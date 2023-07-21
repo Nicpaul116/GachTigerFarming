@@ -1,0 +1,16 @@
+*{
+    scroll-behavior: smooth;
+}
+
+
+body{
+ background-color: #010B13; 
+ color: white; 
+}
+
+.App_header{
+    background:linear-gradient(to top, rgb(1 11 19), rgb(0 0 0/ 5% )),  url('./assets/farming.jpg')no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+}
