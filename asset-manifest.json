@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/GachTigerFarming/static/css/main.4bc736bd.css",
-    "main.js": "/GachTigerFarming/static/js/main.a75bff21.js",
+    "main.css": "/GachTigerFarming/static/css/main.6569c5e5.css",
+    "main.js": "/GachTigerFarming/static/js/main.e491bd91.js",
     "static/media/FCS.png": "/GachTigerFarming/static/media/FCS.c188d733fc2c0a809ab1.png",
     "static/media/Wheat.jpg": "/GachTigerFarming/static/media/Wheat.0273313fa946f795d458.jpg",
     "static/media/truck2.jpg": "/GachTigerFarming/static/media/truck2.52dab2faeb57377cd3f6.jpg",
@@ -22,11 +22,11 @@
     "static/media/fruits.jpg": "/GachTigerFarming/static/media/fruits.8efab3ebb576ec982a76.jpg",
     "static/media/truck1.jpeg": "/GachTigerFarming/static/media/truck1.38a0b4afc85e838845f9.jpeg",
     "index.html": "/GachTigerFarming/index.html",
-    "main.4bc736bd.css.map": "/GachTigerFarming/static/css/main.4bc736bd.css.map",
-    "main.a75bff21.js.map": "/GachTigerFarming/static/js/main.a75bff21.js.map"
+    "main.6569c5e5.css.map": "/GachTigerFarming/static/css/main.6569c5e5.css.map",
+    "main.e491bd91.js.map": "/GachTigerFarming/static/js/main.e491bd91.js.map"
   },
   "entrypoints": [
-    "static/css/main.4bc736bd.css",
-    "static/js/main.a75bff21.js"
+    "static/css/main.6569c5e5.css",
+    "static/js/main.e491bd91.js"
   ]
 }
