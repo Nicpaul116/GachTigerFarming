@@ -5,7 +5,7 @@ import FCS from '../../assets/FCS.png'
 
 const Blog = () => {
   return (
-    <div className='content_blog'>
+    <div className='content_blog' id='Blog'>
       <div className='blog_wrap'>
         <div className='blog_header'>
           <h1>Our Company</h1>

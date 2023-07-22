@@ -4,7 +4,7 @@ import { cropsData } from './item'
 
 const Crops = () => {
   return (
-    <div className='container_crops'>
+    <div className='container_crops' id='Crops'>
       <div className='container_crops_all'>
         <div className='crops_header'><h1>Crops</h1></div>
         <div className='container_crops_wrap'>

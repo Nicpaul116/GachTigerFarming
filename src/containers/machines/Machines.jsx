@@ -4,7 +4,7 @@ import { machineData } from './item'
 
 const Machines = () => {
   return (
-    <div className='container_machines'>
+    <div className='container_machines' id='Machines'>
       <div className='container_machine_wrap'>
         <div className='machine_header'><h1>Machines</h1></div>
         <div className='machine_wrap'>
