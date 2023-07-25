@@ -62,3 +62,56 @@
 .contact_button{
     padding-left: 2rem;
 }
+
+@media screen and (max-width:950px) and (min-width:500px) {
+    .contact_info2, .contact_info{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact_wrap{
+        text-align: center;
+    }
+
+    .contact_button{
+        padding-top: 1rem;
+    }
+
+}
+
+@media screen and (max-width:500px) and (min-width:380px) {
+    .container_contact{
+        box-shadow: none;
+        margin: 0 -1rem ;
+    }
+    .contact_info2{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:380px) and (min-width:300px) {
+    .container_contact{
+        box-shadow: none;
+        margin: 0 -2rem;
+    }
+
+    .contact_info2, .contact_info{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact_info{
+        text-align: center;
+    }
+
+    .contact_header{
+        font-size: large;
+        text-align: center;
+    }
+
+    .contact_links{
+        justify-content: center;
+    }
+}

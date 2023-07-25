@@ -122,7 +122,7 @@
     }
 }
 
-@media screen and (min-width:376px) and (max-width:426px) {
+@media screen and (max-width:620px) {
     .header_images{
         display: flex;
         flex-direction: column;
@@ -132,5 +132,26 @@
 
     .header_heading h1{
         font-size:2rem;
+    }
+}
+
+@media screen and (max-width:380px)  {
+    .header_heading h1{
+        font-size: 2rem;
+    }
+    .header_images{
+        display: flex;
+        flex-direction: column;
+        padding-left: 1rem;
+    }
+
+    .pig_h{
+        top: 132%;
+        left: 30%;
+    }
+
+    .crop_h{
+        top: 175%;
+        left: 40%;
     }
 }

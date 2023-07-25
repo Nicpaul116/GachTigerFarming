@@ -16,9 +16,14 @@
     color: #EF9B0F;
 }
 
+.crops_info{
+    text-align: center;
+}
+
 .crops_img{
-    width: 350px;
     height: 300px;
+    min-width: 250px;
+    max-width: 100%;
     box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.4), 0 10px 10px 10px rgba(0, 0, 0, 0.19);
 }
 
@@ -26,6 +31,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20rem , 1fr) );
     padding: 1rem;
+    justify-content: center;
 }
 
 .crops_header{
@@ -49,3 +55,25 @@
     cursor: pointer;
 }
 
+
+@media screen and (max-width:500px) and (min-width:380px) {
+    .container_crops{
+        box-shadow: none;
+        margin: 5rem;
+    }
+
+    .container_crops_all{
+        margin: 0 1rem;
+    }
+}
+
+@media screen and (max-width:380px) and (min-width:300px) {
+    .container_crops{
+        box-shadow: none;
+        margin: 0 3rem;
+    }
+
+    .container_crops_all{
+        margin: 0 1rem;
+    }
+}

@@ -20,6 +20,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     padding: 1rem;
+    justify-content: center;
 }
 
 .livestock_wrap{
@@ -29,8 +30,8 @@
 
 
 .livestock_img {
-    width: 350px;
     height: 300px;
+    max-width: 100%;
     box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.4), 0 0 10px 10px rgba(0, 0, 0, 0.19);
 }
 
@@ -52,4 +53,30 @@
     background: white;
     transition: 0.3s ease-out;
     cursor: pointer;
+}
+
+@media screen and (max-width:450px) and (min-width:380px) {
+    .container_livestock_info{
+        margin: 0 1rem;
+    }
+    .container_livestock{
+        box-shadow: none;
+        margin: 0 6rem;
+    }
+    
+}
+
+@media screen and (max-width:380px) and (min-width:300px) {
+    .container_livestock_info{
+        margin: 0 1rem;
+    }
+
+    .container_livestock{
+        box-shadow: none;
+        margin: 0 4rem;
+    }
+
+    .livestock_header{
+        margin: 0 -2rem;
+    }
 }

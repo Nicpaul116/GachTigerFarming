@@ -12,7 +12,7 @@ const Contact = () => {
         <div className='contact_info'>
         <div className='contact_form'>
           <form action="">
-            <input type="type" placeholder='Fullname' name='Fullname' />
+            <input type="type" placeholder='Fullname' name='Fullname'  />
             <input type="type" placeholder='Email' name='Email' />
             <input type="type" placeholder='Phone Number' name='Phone Number' />
           </form>

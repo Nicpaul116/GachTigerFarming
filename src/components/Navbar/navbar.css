@@ -69,6 +69,7 @@
 
 .link1{
     transition: 0.2s ease-in;
+    color: white;
 }
 
 .link1:hover {
@@ -79,6 +80,7 @@
 
 .link2{
     transition: 0.2s ease-in;
+    color: #fff;
 }
 
 .link2:hover {
@@ -89,6 +91,7 @@
 
 .link3{
     transition: 0.2s ease-in;
+    color: #fff;
 }
 
 .link3:hover {
@@ -99,6 +102,7 @@
 
 .link4{
     transition: 0.2s ease-in;
+    color: #fff;
 }
 
 .link4:hover {
@@ -109,6 +113,7 @@
 
 .link5{
     transition: 0.2s ease-in;
+    color: #fff;
 }
 
 .link5:hover {
@@ -119,6 +124,7 @@
 
 .link6{
     transition: 0.2s ease-in;
+    color: #fff;
 }
 
 .link6:hover {
@@ -129,6 +135,7 @@
 
 .link7{
     transition: 0.2s ease-in;
+    color: #fff;
 }
 
 .link7:hover{
@@ -136,15 +143,76 @@
     border-bottom:2px solid #EF9B0F;
 }
 
-@media screen and (max-width:951px){
-    .navbar_header1{
-        text-align: center;
-    }
+.navbar-menu{
+    margin-left:1rem ;
+    display: none;
+    position: relative;
+}
 
-    .navbar_wrap{
-        display: flex;
-        flex-direction: column;
-    }
+.navbar-menu svg{
+    cursor: pointer;
+}
+
+.navbar_menu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background: #010B13;
+    padding: 2rem;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius:5px;
+}
+
+.navbar_menu-container a{
+    text-decoration: none;
+}
+
+.navbar_menu-container p{
+    margin: 1rem 0;
+}
+
+.navbar_login-links{
+    display: none;
+}
+
+@media screen and (max-width:1050px){
+.navbar_links{
+    display: none;
+}
+
+.navbar-menu{
+    display: flex;
+}
 
 
 }
+
+
+@media screen and (max-width:620px){
+  .navbar_login{
+    display: none;
+  }
+
+  .navbar_menu-container{
+    top: 20px;
+  }
+
+  .navbar_login-links{
+    display: block;
+  }
+
+}
+
+@media screen and (max-width:320px) {
+    .navbar_header1 h1{
+        font-size: 1rem;
+    }
+}
+
+

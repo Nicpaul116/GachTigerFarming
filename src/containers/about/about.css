@@ -34,13 +34,13 @@
     background: grey;
 }
 
-@media screen  and (max-width:426px)  and (min-width:376px) {
+
+
+@media screen and (max-width:450px) and (min-width:300px) {
     .about_header h1{
         font-size: 1rem;
     }
-    .about1{
-        padding: 0 10rem 0 0;
-        
+    .about{
+        margin: 0 2rem;
     }
-    
 }
