@@ -101,7 +101,7 @@
     height: 200px;
 }
 
-@media screen and (min-width:426px) and (max-width:768px  )  {
+@media screen and (max-width:768px  )  {
     .pig{
         width: 140px;
         height: 140px;
@@ -120,6 +120,7 @@
     .header_heading h1{
         font-size: 4rem;
     }
+
 }
 
 @media screen and (max-width:620px) {
@@ -145,13 +146,5 @@
         padding-left: 1rem;
     }
 
-    .pig_h{
-        top: 132%;
-        left: 30%;
-    }
 
-    .crop_h{
-        top: 175%;
-        left: 40%;
-    }
 }
