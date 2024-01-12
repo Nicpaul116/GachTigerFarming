@@ -1,32 +1,27 @@
 {
   "files": {
-    "main.css": "/GachTigerFarming/static/css/main.2a3ede50.css",
-    "main.js": "/GachTigerFarming/static/js/main.04a982a0.js",
+    "main.css": "/GachTigerFarming/static/css/main.3bdc7237.css",
+    "main.js": "/GachTigerFarming/static/js/main.6831d5d2.js",
+    "static/media/5a3aea296953c3.png": "/GachTigerFarming/static/media/5a3aea296953c3.19162533151381047343147991.d8b1a96178dddb94b333.png",
     "static/media/FCS.png": "/GachTigerFarming/static/media/FCS.c188d733fc2c0a809ab1.png",
-    "static/media/Wheat.jpg": "/GachTigerFarming/static/media/Wheat.0273313fa946f795d458.jpg",
-    "static/media/truck2.jpg": "/GachTigerFarming/static/media/truck2.52dab2faeb57377cd3f6.jpg",
+    "static/media/pexels-pixabay-259280.jpg": "/GachTigerFarming/static/media/pexels-pixabay-259280.365df6d03c0028565bad.jpg",
+    "static/media/truck5.png": "/GachTigerFarming/static/media/truck5.5c2c27da5648add0974c.png",
+    "static/media/duck-19421.png": "/GachTigerFarming/static/media/duck-19421.6d4eb4a95c28f1b44dae.png",
     "static/media/farming.jpg": "/GachTigerFarming/static/media/farming.42d982caa066d4d8f46c.jpg",
-    "static/media/corn.jpg": "/GachTigerFarming/static/media/corn.ca1c708074f250333e69.jpg",
-    "static/media/layer.jpg": "/GachTigerFarming/static/media/layer.d123b4eec6774b84bec8.jpg",
-    "static/media/truck3.jpeg": "/GachTigerFarming/static/media/truck3.c0f2dc3262173a56cf68.jpeg",
-    "static/media/rice.jpg": "/GachTigerFarming/static/media/rice.310c608f0e11d6266671.jpg",
-    "static/media/brownswiss.jpg": "/GachTigerFarming/static/media/brownswiss.95ee9c0299be30677aab.jpg",
-    "static/media/truck4.jpg": "/GachTigerFarming/static/media/truck4.8d28deb8019ac2ff9906.jpg",
-    "static/media/tractor.jpg": "/GachTigerFarming/static/media/tractor.bfca03fc74d8d46ec36a.jpg",
-    "static/media/broiler.jpg": "/GachTigerFarming/static/media/broiler.363d201d18c77d8d0a58.jpg",
-    "static/media/pigs.jpg": "/GachTigerFarming/static/media/pigs.04d44002a3ffb423f1bf.jpg",
-    "static/media/dairycow.jpg": "/GachTigerFarming/static/media/dairycow.ea8a740ce6882543637b.jpg",
-    "static/media/pig.jpg": "/GachTigerFarming/static/media/pig.d61f4dd2373b09eab589.jpg",
-    "static/media/corn2.jpg": "/GachTigerFarming/static/media/corn2.9bd8064e636ca5105232.jpg",
-    "static/media/duck.jpg": "/GachTigerFarming/static/media/duck.84f452aa4c66f3e49e9f.jpg",
+    "static/media/cow-12871.png": "/GachTigerFarming/static/media/cow-12871.b0da1ba2e315e728d53e.png",
+    "static/media/truck2.png": "/GachTigerFarming/static/media/truck2.5dc06413ff59de531c58.png",
+    "static/media/truck1.png": "/GachTigerFarming/static/media/truck1.8d4aca5c7d2c566d85fd.png",
+    "static/media/truck3.png": "/GachTigerFarming/static/media/truck3.31848541ef0a26e3a369.png",
+    "static/media/truck4.png": "/GachTigerFarming/static/media/truck4.4e2b765353d4103514c6.png",
+    "static/media/pngimg.com - cow_PNG50601.png": "/GachTigerFarming/static/media/pngimg.com - cow_PNG50601.59346a93f25414ae52ef.png",
+    "static/media/chicken-13826.png": "/GachTigerFarming/static/media/chicken-13826.58d5e571d5f957608b85.png",
     "static/media/fruits.jpg": "/GachTigerFarming/static/media/fruits.8efab3ebb576ec982a76.jpg",
-    "static/media/truck1.jpeg": "/GachTigerFarming/static/media/truck1.38a0b4afc85e838845f9.jpeg",
     "index.html": "/GachTigerFarming/index.html",
-    "main.2a3ede50.css.map": "/GachTigerFarming/static/css/main.2a3ede50.css.map",
-    "main.04a982a0.js.map": "/GachTigerFarming/static/js/main.04a982a0.js.map"
+    "main.3bdc7237.css.map": "/GachTigerFarming/static/css/main.3bdc7237.css.map",
+    "main.6831d5d2.js.map": "/GachTigerFarming/static/js/main.6831d5d2.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a3ede50.css",
-    "static/js/main.04a982a0.js"
+    "static/css/main.3bdc7237.css",
+    "static/js/main.6831d5d2.js"
   ]
 }
