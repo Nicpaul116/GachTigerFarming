@@ -88,7 +88,7 @@ const Livestock = () => {
       <div className="container_livestock_info">
         <div className="container_livestock_wrap fade-in-fwd">
           <div className="livestock-img ">
-            <img src={animalsimg} alt="#" style={{ width: 400, height: 400 }} />
+            <img src={animalsimg} alt="#" />
           </div>
           <div className="details-wrap">
             <div className="livestock-details">

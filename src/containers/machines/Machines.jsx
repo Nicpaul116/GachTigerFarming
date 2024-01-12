@@ -75,7 +75,7 @@ const Machines = () => {
       <div className="container_machine_wrap">
         <div className="machine_wrap">
           <div className="machine-img">
-            <img src={machine} alt="" style={{ width: 450, height: 450 }} />
+            <img src={machine} alt="" />
           </div>
           <div className="machine-details">
             <div className="details-info">

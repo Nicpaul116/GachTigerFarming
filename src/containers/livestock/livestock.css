@@ -25,6 +25,11 @@
   text-align: center;
 }
 
+.livestock-img img {
+  width: 400px;
+  height: 400px;
+}
+
 .livestock-details h2 {
   margin-right: 2rem;
   border-right: 1px solid #fff;
@@ -82,5 +87,10 @@
 
   .container_livestock_wrap {
     padding: 0 10px;
+  }
+
+  .livestock-img img {
+    width: 300px;
+    height: 300px;
   }
 }

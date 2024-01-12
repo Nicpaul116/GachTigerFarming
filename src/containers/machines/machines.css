@@ -12,6 +12,11 @@
   flex-wrap: wrap;
 }
 
+.machine-img img {
+  width: 450px;
+  height: 450px;
+}
+
 .details-info {
   display: flex;
   flex-direction: row;
@@ -68,5 +73,9 @@
   .details-info h2,
   .details-info p {
     width: 100%;
+  }
+  .machine-img img {
+    width: 300px;
+    height: 300px;
   }
 }
