@@ -1,25 +1,34 @@
-import React from 'react'
-import './App.css'
-import {Blog, Contact, Crops, Footer, Header, Livestock, Machines, About} from './containers'
-import {Navbar} from './components'
+import React from "react";
+import "./App.css";
+import {
+  Blog,
+  Contact,
+  Info,
+  Footer,
+  Header,
+  Livestock,
+  Machines,
+  About,
+  Info2,
+} from "./containers";
+import { Navbar } from "./components";
 const App = () => {
   return (
-    <div >
-     <div>
-     <div className='App_header'>
-     <Navbar/>
-      <Header/>
-     </div>
-     <About/>
-      <Livestock/>
-      <Crops/>
-      <Machines/>
-      <Blog/>
-      <Contact/>
-      <Footer/>
-     </div>
+    <div className="App-all">
+      <div className="App_header">
+        <Navbar />
+        <Header />
+      </div>
+      <About />
+      <Livestock />
+      <Info />
+      <Machines />
+      <Info2 />
+      <Blog />
+      <Contact />
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

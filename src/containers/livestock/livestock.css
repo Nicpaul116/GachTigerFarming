@@ -1,82 +1,86 @@
-.container_livestock{
-    margin: 0 10rem;
-    box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.4), 0 10px 10px 10px rgba(0, 0, 0, 0.19);
+.container_livestock {
+  box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.4),
+    0 10px 10px 10px rgba(0, 0, 0, 0.19);
+  background-color: #070707;
 }
 
-.container_livestock_info{
-    margin: 0 6rem;
-
-    
+.container_livestock_wrap {
+  display: flex;
+  padding: 1rem 4rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  transition: 0.5s ease;
 }
 
-.livestock_header{
-    text-align: center;
-    color: #EF9B0F;
-    text-transform: uppercase;
-    padding-top: 1rem;
+.livestock-img {
+  padding: 1rem 0;
 }
 
-.container_livestock_wrap{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-    padding: 1rem;
+.livestock-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #fff;
+  text-align: center;
+}
+
+.livestock-details h2 {
+  margin-right: 2rem;
+  border-right: 1px solid #fff;
+  width: 150px;
+}
+
+.livestock-details p {
+  width: 250px;
+}
+
+.details-p {
+  font-size: 13px;
+}
+
+.livestock-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.livestock-buttons button {
+  width: 100px;
+  height: 50px;
+  border: none;
+  background: #ef9b0f;
+  transition: 0.3s ease-in;
+  margin: 1rem;
+}
+
+.livestock-buttons button:hover {
+  background: white;
+  transition: 0.3s ease-out;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+  .container_livestock_wrap {
+    align-items: center;
     justify-content: center;
+  }
 }
 
-.livestock_wrap{
-    padding: 2rem 1rem;
-    text-align: center;
-}
+@media screen and (max-width: 500px) {
+  .livestock-details h2 {
+    font-size: 15px;
+    width: 100%;
+  }
 
+  .livestock-details p {
+    font-size: 12px;
+    width: 100%;
+  }
 
-.livestock_img {
-    height: 300px;
-    max-width: 100%;
-    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.4), 0 0 10px 10px rgba(0, 0, 0, 0.19);
-}
-
-.livestock_info h3{
-    text-transform: uppercase;
-    color: #EF9B0F;
-}
-
-.livestock_button{
-    background-color: #EF9B0F;
-    font-size: 1rem;
-    width: 100px;
-    height: 50px;
-    border: none;
-    transition: 0.3s ease-in;
-}
-
-.livestock_button:hover {
-    background: white;
-    transition: 0.3s ease-out;
-    cursor: pointer;
-}
-
-@media screen and (max-width:450px) and (min-width:380px) {
-    .container_livestock_info{
-        margin: 0 1rem;
-    }
-    .container_livestock{
-        box-shadow: none;
-        margin: 0 6rem;
-    }
-    
-}
-
-@media screen and (max-width:380px) and (min-width:300px) {
-    .container_livestock_info{
-        margin: 0 1rem;
-    }
-
-    .container_livestock{
-        box-shadow: none;
-        margin: 0 4rem;
-    }
-
-    .livestock_header{
-        margin: 0 -2rem;
-    }
+  .container_livestock_wrap {
+    padding: 0 10px;
+  }
 }
