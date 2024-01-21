@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/GachTigerFarming/static/css/main.2d8e18f6.css",
-    "main.js": "/GachTigerFarming/static/js/main.28d62b03.js",
+    "main.css": "/GachTigerFarming/static/css/main.e26d5683.css",
+    "main.js": "/GachTigerFarming/static/js/main.0472265b.js",
     "static/media/5a3aea296953c3.png": "/GachTigerFarming/static/media/5a3aea296953c3.19162533151381047343147991.d8b1a96178dddb94b333.png",
+    "static/media/chicken-13821.png": "/GachTigerFarming/static/media/chicken-13821.9b1ca099c389f11f3552.png",
     "static/media/FCS.png": "/GachTigerFarming/static/media/FCS.c188d733fc2c0a809ab1.png",
     "static/media/pexels-pixabay-259280.jpg": "/GachTigerFarming/static/media/pexels-pixabay-259280.365df6d03c0028565bad.jpg",
     "static/media/truck5.png": "/GachTigerFarming/static/media/truck5.5c2c27da5648add0974c.png",
     "static/media/duck-19421.png": "/GachTigerFarming/static/media/duck-19421.6d4eb4a95c28f1b44dae.png",
+    "static/media/farm4.jpg": "/GachTigerFarming/static/media/farm4.fa042bdcd83b76c21e37.jpg",
     "static/media/farming.jpg": "/GachTigerFarming/static/media/farming.42d982caa066d4d8f46c.jpg",
     "static/media/cow-12871.png": "/GachTigerFarming/static/media/cow-12871.b0da1ba2e315e728d53e.png",
     "static/media/truck2.png": "/GachTigerFarming/static/media/truck2.5dc06413ff59de531c58.png",
@@ -14,14 +16,13 @@
     "static/media/truck3.png": "/GachTigerFarming/static/media/truck3.31848541ef0a26e3a369.png",
     "static/media/truck4.png": "/GachTigerFarming/static/media/truck4.4e2b765353d4103514c6.png",
     "static/media/pngimg.com - cow_PNG50601.png": "/GachTigerFarming/static/media/pngimg.com - cow_PNG50601.59346a93f25414ae52ef.png",
-    "static/media/chicken-13826.png": "/GachTigerFarming/static/media/chicken-13826.58d5e571d5f957608b85.png",
     "static/media/fruits.jpg": "/GachTigerFarming/static/media/fruits.8efab3ebb576ec982a76.jpg",
     "index.html": "/GachTigerFarming/index.html",
-    "main.2d8e18f6.css.map": "/GachTigerFarming/static/css/main.2d8e18f6.css.map",
-    "main.28d62b03.js.map": "/GachTigerFarming/static/js/main.28d62b03.js.map"
+    "main.e26d5683.css.map": "/GachTigerFarming/static/css/main.e26d5683.css.map",
+    "main.0472265b.js.map": "/GachTigerFarming/static/js/main.0472265b.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d8e18f6.css",
-    "static/js/main.28d62b03.js"
+    "static/css/main.e26d5683.css",
+    "static/js/main.0472265b.js"
   ]
 }
