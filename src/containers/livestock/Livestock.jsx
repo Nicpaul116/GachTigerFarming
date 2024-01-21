@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "./livestock.css";
-import broiler from "../../assets/chicken-13826.png";
+import broiler from "../../assets/chicken-13821.png";
 import duck from "../../assets/duck-19421.png";
 import pigs from "../../assets/5a3aea296953c3.19162533151381047343147991.png";
 import dairycow from "../../assets/cow-12871.png";

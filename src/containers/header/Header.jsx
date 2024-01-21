@@ -1,5 +1,6 @@
 import React from "react";
 import "./header.css";
+import { HashLink as Link } from "react-router-hash-link";
 
 const Header = () => {
   return (
@@ -12,7 +13,9 @@ const Header = () => {
           It is a newly establish company with a goal to satisfy the needs of a
           customer and provide excellent services
         </p>
-        <button className="header_button">About Us</button>
+        <Link to="#Blog">
+          <button className="header_button">See Blog</button>
+        </Link>
       </div>
     </div>
   );

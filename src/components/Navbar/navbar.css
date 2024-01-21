@@ -54,17 +54,6 @@
   cursor: pointer;
 }
 
-.signin h3 {
-  font-size: 1.6rem;
-  transition: 0.2s ease-in;
-}
-
-.signin:hover h3 {
-  color: #ef9b0f;
-  transition: 0.2s ease-out;
-  cursor: pointer;
-}
-
 .link1 {
   transition: 0.2s ease-in;
   color: white;

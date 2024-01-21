@@ -1,32 +1,17 @@
 import React from "react";
 import "./App.css";
-import {
-  Blog,
-  Contact,
-  Info,
-  Footer,
-  Header,
-  Livestock,
-  Machines,
-  About,
-  Info2,
-} from "./containers";
-import { Navbar } from "./components";
+import Container from "./containers/Container";
+import { HashRouter, Route, Routes } from "react-router-dom";
+import { Signin } from "./components";
 const App = () => {
   return (
     <div className="App-all">
-      <div className="App_header">
-        <Navbar />
-        <Header />
-      </div>
-      <About />
-      <Livestock />
-      <Info />
-      <Machines />
-      <Info2 />
-      <Blog />
-      <Contact />
-      <Footer />
+      <HashRouter>
+        <Routes>
+          <Route path="/" element={<Container />} />
+          <Route path="/Signin" element={<Signin />} />
+        </Routes>
+      </HashRouter>
     </div>
   );
 };
