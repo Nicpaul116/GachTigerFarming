@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import Container from "./containers/Container";
 import { HashRouter, Route, Routes } from "react-router-dom";
-import { Signin } from "./components";
+import { Signin, Scroll } from "./components";
 const App = () => {
   return (
     <div className="App-all">
@@ -12,6 +12,7 @@ const App = () => {
           <Route path="/Signin" element={<Signin />} />
         </Routes>
       </HashRouter>
+      <Scroll />
     </div>
   );
 };

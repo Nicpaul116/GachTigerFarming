@@ -1,0 +1,37 @@
+.Scroll_btn {
+  position: fixed;
+  bottom: 10%;
+  right: 5%;
+  border: none;
+  background: #ef9b0f;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease;
+}
+
+.Scroll_btn:hover {
+  cursor: pointer;
+  transition: all 0.5s ease;
+  width: 35px;
+  height: 35px;
+}
+
+.Scroll_icon {
+  width: 30px;
+  height: 30px;
+}
+
+.Scroll_btn li {
+  list-style-type: none;
+  position: relative;
+  right: 70%;
+}
+
+@media screen and (max-width: 500px) {
+  .Scroll_btn {
+    right: 20%;
+  }
+}
