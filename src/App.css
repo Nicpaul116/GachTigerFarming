@@ -12,8 +12,7 @@ body {
 }
 
 .App_header {
-  background: linear-gradient(to top, rgb(0 0 1), rgb(0 0 0/ 5%)),
-    url("./assets/farming.jpg") no-repeat;
+  background: url("./assets/farming.jpg") no-repeat;
   background-size: cover;
   height: 100vh;
   background-position: center;
